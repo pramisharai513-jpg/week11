@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">My Awesome Portfolio</h1>
+    <p>My portfolio now responds to clicks.</p>
+    <button id="theme-btn">Switch to Dark Mode</button>
+  </header>
+
+  <nav class="nav-menu" aria-label="Main navigation">
+    <a href="#about">About Me</a>
+    <a href="#profile">Profile</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <div class="content-wrapper">
+    <section class="card" id="about">
+      <h2>Introduction</h2>
+      <p>Hello. This screen is a basic skeleton for testing the if-else statement.</p>
+      <p>Press F12 to open the Console and check the JavaScript execution results.</p>
+    </section>
+    <section class="card" id="profile">
+      <h2>My Profile</h2>
+      <img src="profile.jpg" alt="Portfolio profile photo" style="max-width: 100%; height: auto;">
+      <p>I enjoy cooking, listening to music.</p>
+    </section>
+    </div>
+    <section id="contact">
+      <h2>Leave a Message</h2>
+      <form>
+        <label for="visitor-name">Name</label>
+        <input id="visitor-name" type="text" placeholder="Your name">
+        <label for="visitor-email">Email</label>
+        <input id="visitor-email" type="email" placeholder="Your email">
+        <label for="visitor-message">Message</label>
+        <textarea id="visitor-message" rows="5" placeholder="Your message"></textarea>
+        <button type="button">Send Message (Layout Demo)</button>
+      </form>
+      <p>This form demonstrates HTML layout; it does not send messages.</p>
+    </section>
+  </main>
+  <footer><p>My cumulative web portfolio</p></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
